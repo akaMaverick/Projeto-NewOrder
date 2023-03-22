@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "EmailService",
+            "request": "launch",
+            "mainClass": "br.com.alura.EmailService",
+            "projectName": "ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "FraudDetectorService",
+            "request": "launch",
+            "mainClass": "br.com.alura.FraudDetectorService",
+            "projectName": "ecommerce"
+        },
+
+        {
+            "type": "java",
+            "name": "LogService",
+            "request": "launch",
+            "mainClass": "br.com.alura.LogService",
+            "projectName": "ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "NewOrder",
+            "request": "launch",
+            "mainClass": "br.com.alura.NewOrder",
+            "projectName": "ecommerce"
+        }
+    ]
+}
